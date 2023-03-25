@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px){
+    .map_parent iframe {
+        width: calc(100vw - 20px);
+        height: 27dvh;
+    }
+    
+    .root_parent {
+        width: calc(100vw - 20px);
+    }
+    
+    .odakyu-line p {
+        padding: 0;
+    }
+}

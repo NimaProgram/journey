@@ -1,0 +1,188 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Noto-serif';
+    src: url(fonts/Noto.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Kosugi';
+    src: url(fonts/Kosugi.ttf) format('truetype');
+}
+
+body {
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'Noto-serif';
+}
+
+header {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto;
+}
+
+.map_parent {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.585);
+}
+
+.map_parent iframe {
+    width: 500px;
+    height: 300px;
+}
+
+.root_parent {
+    width: 500px;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto;
+    /* background-color: rgb(150, 150, 150); */
+}
+
+.sub_header {
+    color: rgb(19, 19, 19);
+}
+
+.sub_header > span {
+    color: rgb(101, 101, 101);
+    margin-left: 15px;
+}
+
+.toukaidou-line {
+    background-color: rgb(255, 123, 0);
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.toukaidou-line > p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.way_to_go {
+    display: flex;
+    align-items: center;
+}
+
+.m1 {
+    margin: 0;
+    font-size: small;
+    color: rgb(138, 138, 138);
+    margin: 0 5px 0 15px;
+    
+}
+
+.way_to_go img {
+    width: 20px;
+}
+
+.m2 {
+    /* レスポンシブ時修正 */
+    margin: 0;
+}
+
+.m3 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.m3 img {
+    width: 15px;
+    height: 15px;
+    padding: 2px 0 0 0;
+    margin: 0 0 0 15px;
+}
+
+.sect {
+    display: flex;
+    align-items: baseline;
+    margin: 30px 0;
+}
+
+.sect div {
+    margin: 0 0 0 30px;
+}
+
+.place {
+    margin: 0;
+}
+
+.detail {
+    margin: 0;
+    color: #000000;
+}
+
+.c1 {
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.toho {
+    color: #000000;
+    margin: 30px 0;
+}
+
+#sizer {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+
+.hr_parent {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 50px auto;
+}
+
+.hr1, .hr2, .hr3{
+    width: 8px;
+    height: 8px;
+    background-color: #757575;
+    border-radius: 100%;
+}
+
+.hr1 {
+    position: absolute;
+    margin: 0 0px 0 40px;
+}
+
+.hr2 {
+    position: absolute;
+    margin: 0 0 0 -40px;
+}
+
+.hr3 {
+    position: absolute;
+    margin: 0 0px 0 0px;
+}
+
+.odakyu-line {
+    background-color: rgb(0, 106, 255);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.odakyu-line > p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+}
